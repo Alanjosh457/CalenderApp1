@@ -1,0 +1,116 @@
+.container {
+    padding: 1rem;
+    font-family: sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .newEvent {
+    color: #e91e63;
+    font-weight: 500;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .tab {
+    font-size: 1rem;
+    font-weight: 500;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #999;
+  }
+  
+  .active {
+    color: #000;
+    border-bottom: 2px solid #e91e63;
+  }
+  
+  .dates {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+  
+  .date {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #444;
+  }
+  
+  .activeDate {
+    background: #fde0e6;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: #e91e63;
+  }
+  
+  .dot {
+    width: 6px;
+    height: 6px;
+    background-color: #e91e63;
+    border-radius: 50%;
+    margin: 4px auto 0;
+  }
+  
+  .card {
+    background: linear-gradient(to right, #fce4ec, #f8bbd0);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    position: relative;
+  }
+  
+  .time {
+    color: #888;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+  
+  .titleLine {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #333;
+    justify-content: space-between;
+  }
+  
+  .icon {
+    margin-right: 0.5rem;
+  }
+  
+  .menu {
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  .user {
+    font-size: 0.9rem;
+    color: #f9a825;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  

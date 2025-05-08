@@ -1,0 +1,86 @@
+.monthlyContainer {
+    padding: 1rem;
+    font-family: sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .newEvent {
+    color: #b1006b;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .viewTabs {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .viewTabs button {
+    border: none;
+    background-color: #eee;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: white;
+    border-bottom: 2px solid black;
+  }
+  
+  .monthHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navButtons span {
+    margin: 0 0.5rem;
+    cursor: pointer;
+  }
+  
+  .calendarGrid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .dayHeader {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .dateCell {
+    height: 4rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 0.25rem;
+    position: relative;
+    background-color: #f9f9f9;
+  }
+  
+  .inactive {
+    color: #bbb;
+  }
+  
+  .dateNumber {
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  
+  .icons {
+    margin-top: 0.2rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.2rem;
+  }
+  

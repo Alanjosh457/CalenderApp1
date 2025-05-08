@@ -1,0 +1,124 @@
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    font-family: sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .newEvent {
+    background: none;
+    border: none;
+    color: #e74c3c;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .tabs span {
+    cursor: pointer;
+    padding-bottom: 4px;
+  }
+  
+  .activeTab {
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+  }
+  
+  .calendar {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .times {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 12px;
+  }
+  
+  .timeSlot {
+    height: 60px;
+    border-top: 1px solid #eee;
+  }
+  
+  .week {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .daysHeader {
+    display: flex;
+  }
+  
+  .day {
+    flex: 1;
+    text-align: center;
+    padding: 5px 0;
+  }
+  
+  .activeDay {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .dayColumns {
+    display: flex;
+    position: relative;
+  }
+  
+  .dayColumn {
+    flex: 1;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    position: relative;
+    height: 960px; /* 16 * 60px (for 16 hours shown) */
+  }
+  
+  .eventCard {
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    box-sizing: border-box;
+  }
+  
+  .pink {
+    background-color: #fddede;
+  }
+  
+  .blue {
+    background-color: #d4e9f9;
+  }
+  
+  .icon {
+    display: inline-block;
+    margin-right: 4px;
+  }
+  
+  .title {
+    font-weight: bold;
+  }
+  
+  .user {
+    font-size: 10px;
+    color: #555;
+  }
+  
